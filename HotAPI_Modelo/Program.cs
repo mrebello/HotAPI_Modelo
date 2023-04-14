@@ -1,5 +1,3 @@
-using Microsoft.Extensions.Hosting.Internal;
-
 namespace HotAPI_Modelo;
 
 /// <summary>

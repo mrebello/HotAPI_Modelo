@@ -25,6 +25,28 @@
             <param name="b"></param>
             <returns></returns>
         </member>
+        <member name="M:HotAPI_Modelo.Calculadora.Multiplica(System.Int32,System.Int32)">
+            <summary>
+            Multiplica dois números
+            </summary>
+            <param name="a"></param>
+            <param name="b"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HotAPI_Modelo.Calculadora.Divide(System.Int32,System.Int32)">
+            <summary>
+            Divide dois números
+            </summary>
+            <param name="a"></param>
+            <param name="b"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HotAPI_Modelo.Calculadora.Teste">
+            <summary>
+             Exemplo retornando um valor da configuração (appsettings.json, cmdline, ...)
+            </summary>
+            <returns></returns>
+        </member>
         <member name="T:HotAPI_Modelo.Program">
             <summary>
             Classe de programa padrão para criação da aplicação.

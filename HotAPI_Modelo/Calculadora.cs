@@ -18,8 +18,19 @@ public class Calculadora : HotAPI {
     /// <param name="b"></param>
     /// <returns></returns>
     public int Soma(int a, int b) => a + b;
-
+    /// <summary>
+    /// Multiplica dois números
+    /// </summary>
+    /// <param name="a"></param>
+    /// <param name="b"></param>
+    /// <returns></returns>
     public int Multiplica(int a, int b) => a * b;
+    /// <summary>
+    /// Divide dois números
+    /// </summary>
+    /// <param name="a"></param>
+    /// <param name="b"></param>
+    /// <returns></returns>
     public int Divide(int a, int b) => a / b;
 
     /// <summary>
