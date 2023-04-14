@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33417.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotAPI_Modelo", "HotAPI_Modelo\HotAPI_Modelo.csproj", "{FE860F9A-6533-4CF1-96FD-4391FF8FD1A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE860F9A-6533-4CF1-96FD-4391FF8FD1A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE860F9A-6533-4CF1-96FD-4391FF8FD1A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE860F9A-6533-4CF1-96FD-4391FF8FD1A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE860F9A-6533-4CF1-96FD-4391FF8FD1A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62AB7F46-0E2E-4B00-A404-3B790A19520A}
+	EndGlobalSection
+EndGlobal

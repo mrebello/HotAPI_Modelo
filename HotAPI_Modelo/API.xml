@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HotAPI_Modelo</name>
+    </assembly>
+    <members>
+        <member name="T:HotAPI_Modelo.Calculadora">
+            <summary>
+             Métodos de uma calculadora
+            </summary>
+        </member>
+        <member name="M:HotAPI_Modelo.Calculadora.Subtrai(System.Int32,System.Int32)">
+            <summary>
+            Subtrai dos números
+            </summary>
+            <param name="a">parâmetro 1</param>
+            <param name="b">parâmetro 2</param>
+            <returns>subtração retornada</returns>
+        </member>
+        <member name="M:HotAPI_Modelo.Calculadora.Soma(System.Int32,System.Int32)">
+            <summary>
+            Soma dois números
+            </summary>
+            <param name="a"></param>
+            <param name="b"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HotAPI_Modelo.Program">
+            <summary>
+            Classe de programa padrão para criação da aplicação.
+            As configurações do 'builder' e 'app' estão no appsettings.json, que
+            é incorporado no executável da aplicação.
+            </summary>
+        </member>
+        <member name="M:HotAPI_Modelo.Program.Main(System.String[])">
+            <summary>
+            Método 'main' padrão da HotAPI
+            </summary>
+            <param name="args"></param>
+        </member>
+    </members>
+</doc>
