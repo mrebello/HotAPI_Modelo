@@ -11,7 +11,9 @@
 			que é inserido no .EXE.
 		</Description>
 		<Copyright>Marcos Paulo Ferreira Rebello</Copyright>
+		
 		<VersionBase>1.0</VersionBase>
+		
 		<VersionSuffix>-beta</VersionSuffix>
 		<AssemblyVersion>$(VersionBase).$([System.DateTime]::Now.Subtract("2000-01-01").Days).$([System.DateTime]::Now.TimeOfDay.TotalMinutes.ToString("0"))</AssemblyVersion>
 		<FileVersion>$(AssemblyVersion)</FileVersion>
@@ -24,11 +26,15 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<Content Remove="appsettings.json" />
+		<None Remove="API.xml" />
+		<None Remove="appsettings.json" />
+		<None Remove="appsettings.*.json" />
 	</ItemGroup>
 
 	<ItemGroup>
-		<None Remove="API.xml" />
+		<Content Remove="API.xml" />
+		<Content Remove="appsettings.json" />
+		<Content Remove="appsettings.*.json" />
 	</ItemGroup>
 
 	<ItemGroup>
