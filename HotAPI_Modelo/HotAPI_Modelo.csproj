@@ -43,7 +43,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="HotAPI" Version="1.0.8514.592-beta" />
+		<PackageReference Include="HotAPI" Version="1.0.8515.988-beta" />
 	</ItemGroup>
 
 </Project>
