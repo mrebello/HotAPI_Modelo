@@ -37,5 +37,5 @@ public class Calculadora : HotAPI {
     ///  Exemplo retornando um valor da configuração (appsettings.json, cmdline, ...)
     /// </summary>
     /// <returns></returns>
-    public int Teste() => Config["Teste"].ToInt();
+    public int Teste() => Config["Teste"]!.ToInt();
 }
